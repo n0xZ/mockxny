@@ -1,7 +1,8 @@
 import { FC } from 'react';
 import Image from 'next/image';
-import { useCard } from '../../context/CartContext';
-import { Product } from '../../types';
+import { useCard } from '@/context/CartContext';
+import { Product } from 'types';
+import Button from '../Button';
 interface ProductItemProps {
 	product: Product;
 }
@@ -10,25 +11,25 @@ const ProductItem: FC<ProductItemProps> = ({ product }) => {
 	return (
 		<aside
 			key={product.id}
-			className="flex flex-col justify-between p-3"
+			className="flex flex-col justify-between p-3  hover:opacity-80 duration-100 ease-in-out"
 		>
-			<span className='flex flex-col'>
+			<span className="flex flex-col">
 				<Image
+					priority={true}
 					src={product.image}
-					className="object-fill"
+					className="object-contain"
 					width={100}
-					height={250}
+					height={200}
 					alt={product.title}
 				/>
 				<p className="font-bold mb-2">{product.title}</p>
-				<p className="mb-2">{}</p>
 			</span>
-			<button
-				className="px-6 py-4 border-2 border-emerald-500 text-bold"
-				onClick={() => addSelectedProduct(product)}
-			>
-				Agregar al carrito
-			</button>
+			<div className="w-full">
+				<p className="mb-3 text-gray-500 relative">{`$ ${product.price}`}</p>
+				<Button className='w-full' onClick={() => addSelectedProduct(product)}>
+					Agregar al carrito
+				</Button>
+			</div>
 		</aside>
 	);
 };
