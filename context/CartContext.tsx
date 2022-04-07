@@ -34,6 +34,7 @@ export const CartContext: FC = ({ children }) => {
 			selectedProducts.filter((p, ind) => ind !== index)
 		);
 	};
+	//It returns the total price, based on the sum of the price of each product
 	const getTotalPrice = () => {
 		return Math.round(
 			selectedProducts.reduce(
@@ -43,10 +44,13 @@ export const CartContext: FC = ({ children }) => {
 			)
 		);
 	};
+	//It updates the payment states,such as client credit and its selected products
 	const updatePaymentStates = () => {
 		setClientCredit(clientCredit - getTotalPrice());
 		setSelectedProducts([]);
 	};
+	//It performs the payment, which is based on the client credit and the total price: If the user's credit is lower
+	//than the total price, it will redirect to '/cart/payment/error'. If not, it will redirect to /cart/payment/success
 	const performPayment = () => {
 		if (getTotalPrice() < clientCredit) {
 			router.push('/cart/payment/successful');
