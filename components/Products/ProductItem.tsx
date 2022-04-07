@@ -25,7 +25,7 @@ const ProductItem: FC<ProductItemProps> = ({ product }) => {
 				<p className="font-bold mb-2">{product.title}</p>
 			</span>
 			<div className="w-full">
-				<p className="mb-3 text-gray-500 relative">{`$ ${product.price}`}</p>
+				<p className="mb-3 text-gray-400 text-base relative">{`$ ${product.price}`}</p>
 				<Button className='w-full' onClick={() => addSelectedProduct(product)}>
 					Agregar al carrito
 				</Button>
