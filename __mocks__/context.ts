@@ -1,5 +1,5 @@
 import { CartContextI } from 'types';
-import { mockCardList } from './mocks';
+import { mockList } from './mocks';
 export const mockDefaultValues: CartContextI = {
 	clientCredit: 0,
 	selectedProducts: [],
@@ -12,7 +12,7 @@ export const mockDefaultValues: CartContextI = {
 
 export const mockedSelectedProductValues: CartContextI = {
 	clientCredit: 0,
-	selectedProducts: mockCardList,
+	selectedProducts: mockList,
 	addSelectedProduct: () => {},
 	getTotalPrice: () => 0,
 	updatePaymentStates: () => {},

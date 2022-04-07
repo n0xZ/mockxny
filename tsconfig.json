@@ -3,8 +3,10 @@
 		"baseUrl": ".",
 		"paths": {
 			"@/components/*": ["components/*"],
+			"@/pages/*": ["pages/*"],
 			"@/context/*": ["context/*"],
-			"@/public/*": ["public/*"]
+			"@/public/*": ["public/*"],
+			"@/__mocks__/*": ["__mocks__/*"]
 		},
 		"target": "es5",
 		"lib": ["dom", "dom.iterable", "esnext"],
