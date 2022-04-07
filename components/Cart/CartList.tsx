@@ -35,7 +35,7 @@ const CartList = () => {
 					<div className="mt-4 flex flex-col">
 						<CartFinalPrice finalPrice={getTotalPrice()} />
 						<CartClientCredit clientAmount={clientCredit} />
-						<div className=" mt-3 container mx-auto flex flex-row justify-between w-full  items-end">
+						<div className=" mt-3 container mx-auto flex flex-row justify-between w-full  items-center">
 							<Link href="/products">
 								<a>Volver atrás</a>
 							</Link>
