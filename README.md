@@ -15,6 +15,7 @@ $ npm run dev
 ## Tecnologías empleadas
 
 - [Next.js](https://nextjs.org/docs) 
+- [Typescript](https://www.typescriptlang.org/) 
 - [TailwindCSS](https://tailwindcss.com/) 
 - [Framer Motion](https://www.framer.com/motion/?msclkid=eebdd6b1b6c611eca80ac54144bb931c) 
 - [React Hot Toast](https://react-hot-toast.com/) 
