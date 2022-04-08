@@ -24,11 +24,11 @@ const Home: NextPage = () => {
 					src={homeIllustration}
 					width={600}
 					height={600}
-					alt="Ilustración de Interview-challenge Loudrop"
+					alt="Home illustration"
 				/>
 				<h2 className="text-3xl text-center mt-6 font-bold mb-2">
 					{' '}
-					Bienvenido a Interview-challenge Loudrop!
+					Bienvenido a Mockxny!
 				</h2>
 				<p className="mb-2 text-center">
 					Este proyecto es una simulación de un carrito de
