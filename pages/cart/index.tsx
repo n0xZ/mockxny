@@ -6,7 +6,7 @@ const CartPage = () => {
 	return (
 		<Layout>
 			<Head>
-				<title>Interview Challenge - Loudrop - Mi carrito</title>
+				<title>Mockxny - Mi carrito</title>
 				<meta
 					name="description"
 					content="Mi carrito de compras actual"

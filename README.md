@@ -1,6 +1,6 @@
 
-# Interview challenge - Loudrop
-Interview challenge de Loudrop, basado en un carrito de compras, con la funcionalidad de agregar/quitar produtos de un carrito, y de validar el mísmo
+# Mockxny
+Proyecto basado en un carrito de compras, con la funcionalidad de agregar/quitar produtos de un carrito, y de validar el mísmo
 
 ## Cómo iniciar el proyecto
 ```bash

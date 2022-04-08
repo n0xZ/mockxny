@@ -7,9 +7,7 @@ const PaymentSuccessfulPage: NextPage = () => {
 	return (
 		<>
 			<Head>
-				<title>
-					Interview Challenge - Loudrop - Pago realizado
-				</title>
+				<title>Mockxny - Pago realizado</title>
 				<meta
 					name="description"
 					content="Interview challenge de Loudrop, realizado por Gonzalo Molina"

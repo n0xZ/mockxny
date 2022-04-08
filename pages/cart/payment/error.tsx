@@ -7,9 +7,7 @@ const PaymentErrorPage: NextPage = () => {
 	return (
 		<>
 			<Head>
-				<title>
-					Interview Challenge - Loudrop - Error al realizar el pago
-				</title>
+				<title>Mockxny - Error al realizar el pago</title>
 				<meta
 					name="description"
 					content="Hubo un error al realizar el pago, intente nuevamente"

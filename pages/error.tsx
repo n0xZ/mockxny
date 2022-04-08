@@ -8,7 +8,7 @@ const ErrorPage: NextPage = () => {
 	return (
 		<Layout>
 			<Head>
-				<title>Interview Challenge - Loudrop - Error</title>
+				<title>Mockxny - Error</title>
 				<meta
 					name="description"
 					content="Error al cargar la página"

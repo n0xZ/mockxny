@@ -9,10 +9,10 @@ const Home: NextPage = () => {
 	return (
 		<Layout>
 			<Head>
-				<title>Interview Challenge - Loudrop - Home</title>
+				<title>Mockxny - Home</title>
 				<meta
 					name="description"
-					content="Interview challenge de Loudrop, realizado por Gonzalo Molina"
+					content="Proyecto Mockxny - Carrito de compras"
 				/>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
